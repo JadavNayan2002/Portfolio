@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nayan's Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="./images/me3.jpg" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/e1accbc86a.js"
+            crossorigin="anonymous"></script>
+            <!-- https://codepen.io/carloscdev/pen/mdBLmwP -->
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <h1 class="logo"><span>NAYAN</span>JADAV</h1>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Service</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Python Developer</p>
+                    <h1>Hi, I am <span>Nayan Jadav </span><br>From Ahmedabad -
+                        India</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------- ABOUT ---------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img
+                            src="./images/me1.jpg" alt>
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">ABOUT ME</h1>
+                        <p>Experienced Python Developer with a strong background
+                            in developing and implementing Python-based
+                            applications. Skilled in utilizing various Python
+                            frameworks such as Django to create
+                            efficient and scalable solutions. Proficient in
+                            problem-solving and collaborating with
+                            cross-functional teams to deliver high-quality
+                            software products. Passionate about staying updated
+                            with the latest technologies and continuously
+                            improving coding skills.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link"
+                                onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"
+                                onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"
+                                onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Front-End</span><br>
+                                    HTML, CSS, JavaScript</li>
+                                <li><span>Back-End</span><br>Python, Django</li>
+                                <li><span>DataBase</span><br>SQL, MySQL,
+                                    SQLite</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Web Developer (Sep - 2023 | Feb -
+                                        2024)</span><br>Way To Code Technologies
+                                    LLP</li>
+                                <li><span>Python Developer (Mar - 2024 |
+                                        Present)</span><br>Way To Code
+                                    Technologies LLP</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Mater of Computer Application
+                                        (MCA)</span><br>From , Silver oak
+                                    Univercity (Persuing)</li>
+                                <li><span>Bachelor of Computer Application
+                                        (BCA)</span><br> From, MKBU Univercity
+                                    (June - 2023 | May - 2023)</li>
+                                <!-- <li><span>Internship</span><br>From , Way To
+                                    Code Technologies LLP(2023)</li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------- SERVICECS ---------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">MY SERVICECS</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Application Development</h2>
+                        <p>Developing full-stack web applications using Django,
+                            including frontend (HTML, CSS, JavaScript) and
+                            backend components.
+                        </p>
+                        <a href="./webdevelopment.html">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-person-military-pointing"></i>
+                        <h2>Custom Django Development</h2>
+                        <p>Building custom Django applications tailored to
+                            specific business requirements and functionalities.
+                            Integrating third-party services and APIs into
+                            Django applications.
+
+                        </p>
+                        <a href="./customdevelopment.html">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-shopify"></i>
+                        <h2>E-commerce Solutions</h2>
+                        <p>Developing e-commerce platforms and online stores
+                            using Django with frameworks like Oscar or
+                            integrating with platforms like Shopify.
+
+                        </p>
+                        <a href="./ecommercesolutions.html">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------- PORTFOLIO ---------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">MY WORK</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="./images/webdevelopment.jpg" alt>
+                        <div class="layer">
+                            <h3>Web Development</h3>
+                            <p>Developing full-stack web applications using
+                                Python and Django,
+                                including frontend (HTML, CSS, JavaScript) and
+                                backend components.</p>
+                            <a href="#"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./images/DataAnalysisandVisualization.jpg" alt>
+                        <div class="layer">
+                            <h3>Data Analysis and Visualization</h3>
+                            <p>Using libraries like Pandas, NumPy, and
+                                Matplotlib/Seaborn for data manipulation,
+                                analysis, and creating visualizations.</p>
+                            <a href="#"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./images/DesktopGUIApplications.jpeg" alt>
+                        <div class="layer">
+                            <h3>Desktop GUI Applications</h3>
+                            <p>Using Tkinter: Developing desktop
+                                applications with graphical user interfaces
+                                (GUIs) using libraries like Tkinter or PyQt.</p>
+                            <a href="#"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        <!-- ---------- CONTACT ---------- -->
+        <div id="contact">
+            <div class="container ">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">CONTACT ME</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>
+                            jadavnayan1209@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 7567705369</p>
+                        <div class="social-icon">
+                            <a href="https://www.linkedin.com/in/jadav-nayan-32aba3265/" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://x.com/jadavnayan1209" target="_blank">
+                                <i class="fa-brands fa-x"></i></a>
+                            <a href="https://www.instagram.com/nyn_jadav" target="_blank">
+                                <i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/darwin.charles.5850" target="_blank">
+                                <i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://wa.me/917567705369" target="_blank">
+                                <i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                        <a href="images/Nayan_CV.pdf" download
+                            class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name"
+                                placeholder="Enter your name" required>
+                            <input type="email" name="Email"
+                                placeholder="Enter your email-id" required>
+                            <textarea name="Message" rows="6"
+                                placeholder="Enter your message"></textarea>
+                            <button type="submit"
+                                class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Jadav Nayan</p><i class="fa-solid fa-heart"></i>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+
+    </body>
+</html>
