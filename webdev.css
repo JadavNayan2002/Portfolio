@@ -77,7 +77,7 @@ nav .fas {
 /* ABOUT */
 
 #web-development {
-  padding: 80px 0;
+  padding: 50px 0;
   color: black;
 }
 
@@ -118,7 +118,7 @@ nav .fas {
 
 .web-dev-col-2 img {
   height: 500px;
-  width: 600px;
+  width: 500px;
 }
 
 .web-dev-col-3 {
@@ -128,7 +128,7 @@ nav .fas {
 
 .web-dev-col-3 img {
   height: 500px;
-  width: 600px;
+  width: 500px;
 }
 
 .web-dev-col-4 {
@@ -186,7 +186,7 @@ nav .fas {
 .web-dev-con-14 img,
 .web-dev-con-15 img {
   height: 300px;
-  width: 600px;
+  width: 500px;
 }
 
 .web-dev-con-3 img,
@@ -330,6 +330,7 @@ nav .fas {
   nav .fas {
     display: block;
     font-size: 25px;
+    color: #fff;
   }
 
   nav ul {
@@ -354,6 +355,11 @@ nav .fas {
     top: 25px;
     left: 25px;
     cursor: pointer;
+    color: #fff;
+  }
+
+  #web-development{
+    padding: 0;
   }
 
   .web-dev-col-1,

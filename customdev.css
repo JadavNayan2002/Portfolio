@@ -124,7 +124,7 @@ nav .fas {
 
 .custom-dev-col-2 img {
   height: 500px;
-  width: 600px;
+  width: 500px;
 }
 
 .custom-dev-col-3 {
@@ -216,4 +216,73 @@ nav .fas {
   background: #000000;
   margin-top: 20px;
   font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+  nav .fas {
+    display: block;
+    font-size: 25px;
+    color: #fff;
+  }
+
+  nav ul {
+    background: #ff004f;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 25px;
+  }
+
+  nav ul .fas {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+
+  #custom-development{
+    padding: 20px;
+  }
+
+  .custom-dev-col-1{
+    flex-basis: auto;
+    font-size: 14px;
+    /* margin-top: 30px; */
+  }
+
+  .custom-dev-col-1 h3,
+  .custom-dev-col-4 h3{
+    margin-top: 50px;
+  }
+  
+  .custom-dev-col-4{
+    flex-basis: auto;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+
+  .custom-dev-col-2 img{
+    height: 300px;
+    width: 300px;
+  }
+
+  .custom-dev-col-3 img{
+    height: 300px;
+    width: 300px;
+    margin-top: -50px;
+  }
+
+  .languages-card {
+    display: block;
+    width: 90%;
+  }
 }

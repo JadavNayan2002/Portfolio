@@ -74,18 +74,18 @@ nav .fas {
   display: none;
 }
 
-#web-development {
+#ecom-solution{
   margin-top: 100px;
   color: black;
 }
 
-.container-web-dev {
+.container-ecom {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.web-dev-col-1 {
+.ecom-con-1 {
   flex-basis: 45%;
   flex-direction: column;
   justify-content: center;
@@ -93,7 +93,7 @@ nav .fas {
   text-align: center;
 }
 
-.web-dev-col-1 h2 {
+.ecom-con-1 h2 {
   display: inline-block;
   font-size: 28px;
   font-weight: 700;
@@ -101,7 +101,7 @@ nav .fas {
   padding-bottom: 40px;
 }
 
-.web-dev-col-1 p {
+.ecom-con-1 p {
   font-size: 15px;
   font-weight: 400;
   line-height: 25px;
@@ -110,26 +110,26 @@ nav .fas {
   color: #666666;
 }
 
-.web-dev-col-2 {
+.ecom-conl-2 {
   flex-basis: 50%;
 }
 
-.web-dev-col-2 img {
+.ecom-con-2 img {
   height: 500px;
   width: 600px;
 }
 
-.web-dev-col-3 {
+.ecom-con-3 {
   margin-top: 100px;
   flex-basis: 50%;
 }
 
-.web-dev-col-3 img {
+.ecom-con-3 img {
   height: 500px;
   width: 600px;
 }
 
-.web-dev-col-4 {
+.ecom-con-4 {
   flex-basis: 45%;
   flex-direction: column;
   justify-content: center;
@@ -138,7 +138,7 @@ nav .fas {
   margin-top: 100px;
 }
 
-.web-dev-col-4 p {
+.ecom-con-4 p {
   font-size: 15px;
   font-weight: 400;
   line-height: 25px;
@@ -152,47 +152,47 @@ nav .fas {
   margin-bottom: 50px;
 }
 
-.web-dev-con-1,
-.web-dev-con-4,
-.web-dev-con-5,
-.web-dev-con-8,
-.web-dev-con-9,
-.web-dev-con-12,
-.web-dev-con-13,
-.web-dev-con-17,
-.web-dev-con-16 {
+.ecom-con-1,
+.ecom-con-4,
+.ecom-con-5,
+.ecom-con-8,
+.ecom-con-9,
+.ecom-con-12,
+.ecom-con-13,
+.ecom-con-17,
+.ecom-con-16 {
   flex-basis: 45%;
   flex-direction: column;
 }
 
-.web-dev-con-2,
-.web-dev-con-3,
-.web-dev-con-6,
-.web-dev-con-7,
-.web-dev-con-10,
-.web-dev-con-11,
-.web-dev-con-14,
-.web-dev-con-15 {
+.ecom-con-2,
+.ecom-con-3,
+.ecom-con-6,
+.ecom-con-7,
+.ecom-con-10,
+.ecom-con-11,
+.ecom-con-14,
+.ecom-con-15 {
   flex-basis: 50% !important;
 }
 
-.web-dev-con-2 img,
-.web-dev-con-3 img,
-.web-dev-con-6 img,
-.web-dev-con-7 img,
-.web-dev-con-10 img,
-.web-dev-con-11 img,
-.web-dev-con-14 img,
-.web-dev-con-15 img,
-.web-dev-con-18 img {
+.ecom-con-2 img,
+.ecom-con-3 img,
+.ecom-con-6 img,
+.ecom-con-7 img,
+.ecom-con-10 img,
+.ecom-con-11 img,
+.ecom-con-14 img,
+.ecom-con-15 img,
+.ecom-con-18 img {
   height: 300px;
-  width: 600px;
+  width: 500px;
 }
 
-.web-dev-con-3 img,
-.web-dev-con-7 img,
-.web-dev-con-11 img,
-.web-dev-con-15 img{
+.ecom-con-3 img,
+.ecom-con-7 img,
+.ecom-con-11 img,
+.ecom-con-15 img {
   animation-name: fadestart;
   animation-duration: 5s;
 }
@@ -206,15 +206,14 @@ nav .fas {
   }
 }
 
-.web-dev-con-2 img,
-.web-dev-con-6 img,
-.web-dev-con-10 img,
-.web-dev-con-14 img,
-.web-dev-con-18 img{
+.ecom-con-2 img,
+.ecom-con-6 img,
+.ecom-con-10 img,
+.ecom-con-14 img,
+.ecom-con-18 img {
   animation-name: fadeend;
   animation-duration: 5s;
 }
-
 
 @keyframes fadeend {
   0% {
@@ -225,15 +224,15 @@ nav .fas {
   }
 }
 
-.web-dev-con-1 h3,
-.web-dev-con-4 h3,
-.web-dev-con-5 h3,
-.web-dev-con-8 h3,
-.web-dev-con-9 h3,
-.web-dev-con-12 h3,
-.web-dev-con-13 h3,
-.web-dev-con-16 h3,
-.web-dev-con-17 h3 {
+.ecom-con-1 h3,
+.ecom-con-4 h3,
+.ecom-con-5 h3,
+.ecom-con-8 h3,
+.ecom-con-9 h3,
+.ecom-con-12 h3,
+.ecom-con-13 h3,
+.ecom-con-16 h3,
+.ecom-con-17 h3 {
   display: inline-block;
   font-size: 20px;
   font-weight: 700;
@@ -241,15 +240,15 @@ nav .fas {
   padding-bottom: 10px;
 }
 
-.web-dev-con-1 p,
-.web-dev-con-4 p,
-.web-dev-con-5 p,
-.web-dev-con-8 p,
-.web-dev-con-9 p,
-.web-dev-con-12 p,
-.web-dev-con-13 p,
-.web-dev-con-16 p,
-.web-dev-con-17 p {
+.ecom-con-1 p,
+.ecom-con-4 p,
+.ecom-con-5 p,
+.ecom-con-8 p,
+.ecom-con-9 p,
+.ecom-con-12 p,
+.ecom-con-13 p,
+.ecom-con-16 p,
+.ecom-con-17 p {
   font-size: 15px;
   font-weight: 400;
   margin: 0 0 7px;
@@ -257,22 +256,22 @@ nav .fas {
   padding-bottom: 7px;
 }
 
-.web-dev-con-3,
-.web-dev-con-4,
-.web-dev-con-5,
-.web-dev-con-6,
-.web-dev-con-7,
-.web-dev-con-8,
-.web-dev-con-9,
-.web-dev-con-10,
-.web-dev-con-11,
-.web-dev-con-12,
-.web-dev-con-13,
-.web-dev-con-14,
-.web-dev-con-15,
-.web-dev-con-16,
-.web-dev-con-18,
-.web-dev-con-17 {
+.ecom-con-3,
+.ecom-con-4,
+.ecom-con-5,
+.ecom-con-6,
+.ecom-con-7,
+.ecom-con-8,
+.ecom-con-9,
+.ecom-con-10,
+.ecom-con-11,
+.ecom-con-12,
+.ecom-con-13,
+.ecom-con-14,
+.ecom-con-15,
+.ecom-con-16,
+.ecom-con-18,
+.ecom-con-17 {
   margin-top: 70px;
 }
 
@@ -281,9 +280,9 @@ nav .fas {
   width: 100%;
 }
 
-.container-text h1{
-    text-align: center;
-    margin-bottom: 80px;
+.container-text h1 {
+  text-align: center;
+  margin-bottom: 80px;
 }
 
 .language-container-card {
@@ -337,4 +336,105 @@ nav .fas {
   background: #000000;
   margin-top: 20px;
   font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+  nav .fas {
+    display: block;
+    font-size: 25px;
+    color: #fff;
+  }
+
+  nav ul {
+    background: #ff004f;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 25px;
+  }
+
+  nav ul .fas {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+
+  #technoligies {
+    padding-top: 30px;
+  }
+
+  #ecom-solution {
+    margin-top: 20px;
+  }
+
+  .ecom-con-1,
+  .ecom-con-4,
+  .ecom-con-5,
+  .ecom-con-8,
+  .ecom-con-9,
+  .ecom-con-12,
+  .ecom-con-13,
+  .ecom-con-17,
+  .ecom-con-16 {
+    flex-basis: auto;
+  }
+
+  .ecom-con-3 img,
+  .ecom-con-7 img,
+  .ecom-con-11 img,
+  .ecom-con-15 img,
+  .ecom-con-2 img,
+  .ecom-con-6 img,
+  .ecom-con-10 img,
+  .ecom-con-14 img,
+  .ecom-con-18 img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .ecom-con-1 h3,
+  .ecom-con-4 h3,
+  .ecom-con-5 h3,
+  .ecom-con-8 h3,
+  .ecom-con-9 h3,
+  .ecom-con-12 h3,
+  .ecom-con-13 h3,
+  .ecom-con-16 h3,
+  .ecom-con-17 h3 {
+    margin-top: -100px;
+  }
+
+  .ecom-con-3,
+  .ecom-con-4,
+  .ecom-con-5,
+  .ecom-con-6,
+  .ecom-con-7,
+  .ecom-con-8,
+  .ecom-con-9,
+  .ecom-con-10,
+  .ecom-con-11,
+  .ecom-con-12,
+  .ecom-con-13,
+  .ecom-con-14,
+  .ecom-con-15,
+  .ecom-con-16,
+  .ecom-con-18,
+  .ecom-con-17 {
+    margin-top: 20px;
+  }
+
+  .languages-card {
+    display: block;
+    width: 90%;
+  }
 }
