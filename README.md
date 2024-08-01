@@ -51,3 +51,7 @@ If you have any questions or want to get in touch, you can reach me at:
 https://jadavnayan2002.github.io/Portfolio/
 
 <img width="948" alt="Capture" src="https://github.com/user-attachments/assets/36e926da-69de-4487-a7fe-b71e10c95be2">
+
+![Portfolio-Screenshot-for-Mobile](https://github.com/user-attachments/assets/d6f7f19f-43b1-4eb2-9d9b-63d20634932b)
+
+
