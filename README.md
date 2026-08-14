@@ -16,7 +16,7 @@ Key Sections:
 ## Technologies Used
 
 - **Back-End**: .NET Core, C#, ASP.NET Core, RESTful APIs, Entity Framework / LINQ
-- **Database**: SQL Server, T-SQL, MySQL
+- **Database**: SQL Server, MySQL
 - **Front-End**: HTML5, CSS3, Bootstrap 5, JavaScript (ES6+)
 - **Tools**: Git, GitHub, VS Code, Visual Studio
 
